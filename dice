@@ -1,0 +1,5 @@
+$cat dicenumbers.sh
+#!/bin/bash -x
+
+randomNUM="$((RANDOM % 6))"
+echo $randomNUM
